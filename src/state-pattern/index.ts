@@ -1,7 +1,7 @@
 import Canvas from "./canvas";
 import { SelectionTool } from "./canvas/tools/SelectionTool";
 import DirectionService from "./direction-service";
-import TrainTravelMode from "./direction-service/travelModes/trainTravelMode";
+import TrainTravelMode from "./direction-service/travel-modes/trainTravelMode";
 
 export default class StatePatternExample {
   static execute(): void {

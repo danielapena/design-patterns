@@ -1,4 +1,4 @@
-import { TravelMode } from "./travelModes/travelMode";
+import { TravelMode } from "./travel-modes/travelMode";
 
 export default class DirectionService {
   private _travelMode: TravelMode;
