@@ -5,6 +5,7 @@ import TrainTravelMode from "./direction-service/travelModes/trainTravelMode";
 
 export default class StatePatternExample {
   static execute(): void {
+    console.log("---State Pattern---");
     const canvas = new Canvas();
     canvas.currentTool = new SelectionTool();
     canvas.mouseDown();

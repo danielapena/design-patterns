@@ -3,6 +3,7 @@ import History from "./document/history";
 
 export default class MementoPatternExample {
   public static execute(): void {
+    console.log("---Memento Pattern---");
     const history = new History();
     const document = new Document();
     document.setContent("Hello World");
